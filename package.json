@@ -1,0 +1,28 @@
+{
+    "name": "@nuxtclub/amplify",
+    "author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+    "license": "MIT",
+    "description": "An easy way to integrate Amplify with NuxtJS",
+    "version": "1.0.0",
+    "keywords": [
+        "nuxt",
+        "amplify",
+        "module"
+    ],
+    "main": "lib/module.js",
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nuxtclub/amplify.git"
+    },
+    "bugs": "https://github.com/nuxtclub/amplify/issues",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@aws-amplify/ui-vue": "^1.0.6",
+        "aws-amplify": "^3.3.26"
+    }
+}
